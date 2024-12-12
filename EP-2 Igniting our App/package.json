@@ -1,0 +1,18 @@
+{
+  "name": "ep-2-igniting-our-app",
+  "version": "1.0.0",
+  "description": "Includes topics like npm, bundlers, etc.",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prasad0022/Namaste-React.git"
+  },
+  "author": "Prasad",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.2"
+  }
+}
