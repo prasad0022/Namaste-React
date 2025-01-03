@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { headerElement, headerJSX, Header } from "./Assignments/Assignmnet_1.jsx";
 
 // const heading = React.createElement("h1", { id: "heading" }, "Hello World !");
 
@@ -20,4 +21,4 @@ const HeadingComponent = () => {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<HeadingComponent />);
+root.render(<Header />);
