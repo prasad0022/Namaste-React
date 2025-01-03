@@ -6,4 +6,13 @@ body {
 
 p {
   color: red;
+  margin: 15px;
+}
+
+.navbar {
+  margin-left: 45%;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
 }
