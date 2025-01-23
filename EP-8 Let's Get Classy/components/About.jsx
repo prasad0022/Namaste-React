@@ -14,12 +14,6 @@ class About extends React.Component {
 
   componentDidMount() {
     console.log("Parent did mount");
-
-    setTimeout(() => {
-      this.setState({
-        heading: "Contact",
-      });
-    }, 5000);
   }
 
   render() {
@@ -28,7 +22,6 @@ class About extends React.Component {
       <div>
         <h1>{this.state.heading} Us</h1>
         <User name="First" />
-        <User name="Second" />
       </div>
     );
   }
